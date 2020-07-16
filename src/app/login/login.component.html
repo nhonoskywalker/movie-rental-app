@@ -1,0 +1,52 @@
+<div class="flex-container parent">
+  <div>
+    <mat-card class="logIn-card">
+      <mat-card-header>
+        <mat-card-title>LogIn</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form [formGroup]="logInForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <mat-form-field floatLabel="auto" appearance="legacy" color="primary">
+              <mat-label for="username">UserName</mat-label>
+              <input matInput required type="text" formControlName="username">
+              <mat-error *ngIf="getForm.username.invalid">User Name is required.</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="form-group">
+            <mat-form-field floatLabel="auto" appearance="legacy" color="primary">
+              <mat-label for="password">Password</mat-label>
+              <input matInput required type="password" formControlName="password">
+              <mat-error *ngIf="getForm.password.invalid">Password is required.</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="form-group">
+            <button [disableRipple]="loading" mat-stroked-button color="primary" style="width: 200px;">
+              <span>
+                <span *ngIf="!loading; else loadingBlock">Log In</span>
+                <ng-template #loadingBlock>Loggin in...</ng-template>
+                <span *ngIf="loading" style="float:right; margin-top: 7px;">
+                  <mat-spinner [diameter]="20"></mat-spinner>
+                </span>
+              </span>
+            </button>
+            <!-- <button [disableRipple]="true" disabled={{loading}} mat-flat-button [routerLink]="['/registration']">Create User</button>
+
+
+
+                  <button mat-stroked-button color="primary">
+                      <span *ngIf="loading">
+                          <mat-spinner></mat-spinner>
+                      </span>
+                      LogIn
+                  </button> -->
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+    <div class="register">
+      <a [routerLink]="['/registration', 'customer']">Register account</a>
+    </div>
+  </div>
+
+</div>

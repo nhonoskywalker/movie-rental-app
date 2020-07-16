@@ -1,0 +1,43 @@
+<mat-card class="register-card">
+  <mat-card-header>
+      <mat-card-subtitle> </mat-card-subtitle>
+      <mat-card-title>Add movie</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+      <form [formGroup]="fg" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+              <mat-form-field floatLabel="auto" appearance="legacy" color="primary">
+                  <mat-label for="title">Title</mat-label>
+                  <input matInput required type="text" formControlName="title">
+                  <mat-error *ngIf="getForm.title.invalid">Title must be at least 1 characters.</mat-error>
+              </mat-form-field>
+          </div>
+          <div class="form-group">
+              <mat-form-field floatLabel="auto" appearance="legacy" color="primary">
+                  <mat-label for="copyCode">Copy Code</mat-label>
+                  <input matInput required type="text" formControlName="copyCode">
+                  <mat-error *ngIf="getForm.copyCode.invalid">CopyCode is required.</mat-error>
+              </mat-form-field>
+          </div>
+          <div class="form-group">
+              <mat-form-field floatLabel="auto" appearance="legacy" color="primary">
+                  <mat-label for="registrationId">Registration Id</mat-label>
+                  <input matInput required type="text" formControlName="registrationId">
+                  <mat-error *ngIf="getForm.registrationId.invalid">Registration Id is required.</mat-error>
+              </mat-form-field>
+          </div>
+
+          <div class="form-group">
+              <button [disableRipple]="loading" mat-stroked-button mat-stroked-button color="primary" id="add-button">
+                  <span>
+                      <span *ngIf="!loading; else loadingBlock">Add</span>
+                      <ng-template #loadingBlock>Adding...</ng-template>
+                      <span *ngIf="loading" style="float:right; margin-top: 7px;">
+                          <mat-spinner [diameter]="20"></mat-spinner>
+                      </span>
+                  </span>
+              </button>
+          </div>
+      </form>
+  </mat-card-content>
+</mat-card>

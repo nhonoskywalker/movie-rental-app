@@ -1,0 +1,587 @@
+{
+  "movieRented": [
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 1,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 2,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7895",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 3,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 4,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "08752264",
+      "copyCode": "7893",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Cheerful Dog",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 5,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "08752264",
+      "copyCode": "5897",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Cheerful Dog",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 6,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7895",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 7,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7891",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 8,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "5897",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 9,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "8978",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 10,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 11,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 12,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 13,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7895",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 14,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7891",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 15,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "5897",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 16,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "8978",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 17,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 18,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7895",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 19,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7891",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 20,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "5897",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 21,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "8978",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 22,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "08752264",
+      "copyCode": "7893",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Cheerful Dog",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 23,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "08752264",
+      "copyCode": "5897",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Cheerful Dog",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 24,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 25,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7895",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 26,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7891",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 27,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "5897",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 28,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "8978",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": true,
+      "id": 29,
+      "dateReturned": "2020-07-16"
+    },
+    {
+      "registrationId": "08752264",
+      "copyCode": "7893",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Cheerful Dog",
+      "dueDate": "2020-07-19",
+      "isReturned": false,
+      "id": 30
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "1234",
+      "dateRented": "2020-07-16",
+      "userId": "9",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": false,
+      "id": 31
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7895",
+      "dateRented": "2020-07-16",
+      "userId": "25",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": false,
+      "id": 32
+    },
+    {
+      "registrationId": "48752264",
+      "copyCode": "7891",
+      "dateRented": "2020-07-16",
+      "userId": "25",
+      "title": "Blue Beard",
+      "dueDate": "2020-07-19",
+      "isReturned": false,
+      "id": 33
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Blue Beard",
+      "copyCode": "1234",
+      "registrationId": "48752264",
+      "rented": true
+    },
+    {
+      "id": 2,
+      "title": "Blue Beard",
+      "copyCode": "7895",
+      "registrationId": "48752264",
+      "rented": true
+    },
+    {
+      "id": 3,
+      "title": "Cheerful Dog",
+      "copyCode": "7893",
+      "registrationId": "08752264",
+      "rented": true
+    },
+    {
+      "id": 4,
+      "title": "Cheerful Dog",
+      "copyCode": "5897",
+      "registrationId": "08752264",
+      "rented": false
+    },
+    {
+      "id": 5,
+      "title": "Blue Beard",
+      "copyCode": "7891",
+      "registrationId": "48752264",
+      "rented": true
+    },
+    {
+      "id": 6,
+      "title": "Blue Beard",
+      "copyCode": "5897",
+      "registrationId": "48752264",
+      "rented": false
+    },
+    {
+      "id": 7,
+      "title": "Blue Beard",
+      "copyCode": "8978",
+      "registrationId": "48752264",
+      "rented": false
+    },
+    {
+      "title": "Zombie Kid",
+      "copyCode": "4857",
+      "registrationId": "12348698",
+      "rented": false,
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@mail.com",
+      "username": "admin",
+      "password": "1234Yes!",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "ronald@mail.com",
+      "username": "testCustomer1",
+      "password": "1234Yes!",
+      "role": "customer"
+    },
+    {
+      "username": "testCustomer3",
+      "password": "1234Yes!",
+      "email": "testc3@mail.com",
+      "role": "customer",
+      "id": 9
+    },
+    {
+      "username": "admin2",
+      "password": "1234Yes!",
+      "email": "admin2@mail.com",
+      "role": "admin",
+      "id": 10
+    },
+    {
+      "username": "testCustomer4",
+      "password": "1234Yes!",
+      "email": "testCustomer4@mail.com",
+      "role": "customer",
+      "id": 11
+    },
+    {
+      "username": "testCustomer5",
+      "password": "1234Yes!",
+      "email": "testCustomer6@mail.com",
+      "role": "customer",
+      "id": 12
+    },
+    {
+      "username": "testCustomer7",
+      "password": "1234Yes!",
+      "email": "testCustomer7@mail.com",
+      "role": "customer",
+      "id": 13
+    },
+    {
+      "username": "testCustomer8",
+      "password": "1234Yes!",
+      "email": "testCustomer8@mail.com",
+      "role": "customer",
+      "id": 14
+    },
+    {
+      "username": "testCustomer9",
+      "password": "1234Yes!",
+      "email": "testCustomer9@mail.com",
+      "role": "customer",
+      "id": 15
+    },
+    {
+      "username": "testCustomer10",
+      "password": "1234Yes!",
+      "email": "testCustomer10@mail.com",
+      "role": "customer",
+      "id": 16
+    },
+    {
+      "username": "testCustomer11",
+      "password": "1234Yes!",
+      "email": "testCustomer11@mail.com",
+      "role": "customer",
+      "id": 17
+    },
+    {
+      "username": "testCustomer12",
+      "password": "1234Yes!",
+      "email": "testCustomer12@mail.com",
+      "role": "customer",
+      "id": 18
+    },
+    {
+      "username": "testCustomer13",
+      "password": "1234Yes!",
+      "email": "testCustomer14@mail.com",
+      "role": "customer",
+      "id": 19
+    },
+    {
+      "username": "testCustomer15",
+      "password": "1234Yes!",
+      "email": "testCustomer15@mail.com",
+      "role": "customer",
+      "id": 20
+    },
+    {
+      "username": "testCustomer16",
+      "password": "1234Yes!",
+      "email": "testCustomer16@mail.com",
+      "role": "customer",
+      "id": 21
+    },
+    {
+      "username": "testCustomer17",
+      "password": "1234Yes!",
+      "email": "testCustomer17@mail.com",
+      "role": "customer",
+      "id": 22
+    },
+    {
+      "username": "testCustomer18",
+      "password": "1234Yes!",
+      "email": "testCustomer18@mail.com",
+      "role": "customer",
+      "id": 23
+    },
+    {
+      "username": "testCustomer19",
+      "password": "1234Yes!",
+      "email": "testCustomer19@mail.com",
+      "role": "customer",
+      "id": 24
+    },
+    {
+      "username": "testCustomer25",
+      "password": "1234Yes!",
+      "email": "testc25@mail.com",
+      "role": "customer",
+      "id": 25
+    },
+    {
+      "username": "admin25",
+      "password": "1234Yes!",
+      "email": "admin25@mail.com",
+      "role": "admin",
+      "id": 26
+    },
+    {
+      "username": "admin26",
+      "password": "1234Yes!",
+      "email": "admin26@mail.com",
+      "role": "admin",
+      "id": 27
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "sdfsdfsdfs",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

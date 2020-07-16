@@ -1,0 +1,20 @@
+<div class="header sticky" id="myHeader">
+  <div class="mat-typography">
+    Movie Rental Store Admin
+  </div>
+</div>
+<div class="content">
+  <div class="sidenav">
+    <a [routerLink]="['registration', 'admin']">Add Admin user</a>
+    <a [routerLink]="['users/view']">View Users</a>
+    <a [routerLink]="['movies/add']">Add Movie</a>
+    <a [routerLink]="['movies/view']">View Movies</a>
+    <a id="logOut" [routerLink]="" (click)="logOut()">LogOut</a>
+  </div>
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+

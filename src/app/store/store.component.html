@@ -1,0 +1,18 @@
+<div class="header sticky" id="myHeader">
+  <div class="mat-typography">
+    Movie Rental Store
+  </div>
+</div>
+<div class="content">
+  <div class="sidenav">
+    <a [routerLink]="['movies']">Rent Movies</a>
+    <a [routerLink]="['mymovies']">My Movies</a>
+    <a id="logOut" [routerLink]="" (click)="logOut()">LogOut</a>
+  </div>
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+

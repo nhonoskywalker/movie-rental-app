@@ -1,0 +1,35 @@
+<div class="flex-container">
+  <mat-card>
+    <mat-card-title>Movies</mat-card-title>
+
+    <table mat-table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef width ="15%"> id </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="title">
+        <th mat-header-cell *matHeaderCellDef> Title </th>
+        <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="copyCode">
+        <th mat-header-cell *matHeaderCellDef> Copy Code </th>
+        <td mat-cell *matCellDef="let element"> {{element.copyCode}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="registrationId">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Registration Id </th>
+        <td mat-cell *matCellDef="let element"> {{element.registrationId}} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+    <mat-paginator #moviesPaginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
+  </mat-card>
+
+
+</div>

@@ -1,0 +1,22 @@
+mat-card{
+  margin: 12px;
+}
+
+.form-group{
+  margin-bottom: 12px;
+
+  mat-form-field{
+    width: 300px;
+    input{
+      font-size: 20px;
+    }
+  }
+}
+
+
+
+#add-button{
+  height: 100px;
+  width: 300px;
+  font-size: 29px;
+}

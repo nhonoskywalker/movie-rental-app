@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.logIn-card {
+  margin-top: 5%;
+  height: 200px;
+}
+
+.register{
+ height: 50px;
+ width: 100%;
+ margin-top: 50px;
+}
+
+a{
+  margin-left: 60px;
+}
