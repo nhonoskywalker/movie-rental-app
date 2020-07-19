@@ -11,17 +11,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @NgModule(
   {
     imports: [
       AdminRoutingModule,
       AngularMaterialModule,
-      AdminRoutingModule,
       HttpClientModule,
       ReactiveFormsModule,
       FormsModule,
-      RouterModule
+      RouterModule,
+      CommonModule,
     ],
     declarations: [
       // DashboardAdminComponent,

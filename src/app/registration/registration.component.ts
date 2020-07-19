@@ -61,7 +61,27 @@ export class RegistrationComponent implements OnInit {
     registerRequest.password = this.getForm['password'].value;
     registerRequest.email = this.getForm['email'].value;
     registerRequest.role = this.route.snapshot.paramMap.get("role");
-    console.log(registerRequest);
+
+
+    let username: any;
+    let email: any;
+
+    let users = await this.registerService.getUsers().toPromise();
+
+    username = users.find(user => user.username === registerRequest.username);
+    email = users.find(user => user.email === registerRequest.email);
+
+    if (email) {
+      this.snackBar.open("Email already used.", null, { duration: 2000 });
+      this.loading = false;
+      return;
+    }
+    else if (username) {
+      this.snackBar.open("Username already used.", null, { duration: 2000 });
+      this.loading = false;
+      return;
+    }
+
     try {
       (await this.registerService.register(registerRequest)).subscribe(
         response =>{

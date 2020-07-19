@@ -416,6 +416,13 @@
       "registrationId": "12348698",
       "rented": false,
       "id": 8
+    },
+    {
+      "title": "Alamat ng pagong",
+      "copyCode": "1478",
+      "registrationId": "123456",
+      "rented": false,
+      "id": 9
     }
   ],
   "users": [
@@ -565,6 +572,20 @@
       "email": "admin26@mail.com",
       "role": "admin",
       "id": 27
+    },
+    {
+      "username": "testAdmin100",
+      "password": "12345678",
+      "email": "testAdmin100@mail.com",
+      "role": "customer",
+      "id": 28
+    },
+    {
+      "username": "testCustomer1000",
+      "password": "12345678",
+      "email": "testCustomer1000",
+      "role": "customer",
+      "id": 29
     }
   ],
   "posts": [

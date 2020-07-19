@@ -83,6 +83,7 @@ export class MoviesRentComponent implements OnInit {
     movieRented.title = _availableMovie.title;
     movieRented.dueDate = DateHelper.formatDate_mm_dd_yy(DateHelper.getFutureDate(new Date(), 3));
     movieRented.isReturned = false;
+
     await this.movieRentService.rentMovie(movieRented).toPromise();
 
     _availableMovie.rented = true;

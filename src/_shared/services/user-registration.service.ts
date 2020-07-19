@@ -24,28 +24,12 @@ export class UserRegistrationService {
       email: userRegistrationRequest.email,
       role: userRegistrationRequest.role
     }
-    let username: any;
-    let email: any;
 
-    let users = await this.getUsers().toPromise();
+    return this.httpClient.post<Response<void>>(`${environment.api_url}/users`, requestBody);
 
-    username = users.find(user => user.username === userRegistrationRequest.username);
-    email = users.find(user => user.email === userRegistrationRequest.email);
-
-    if (email) {
-      this.snackBar.open("Email already used.", null, { duration: 2000 });
-    }
-    else if (username) {
-      this.snackBar.open("Username already used.", null, { duration: 2000 });
-    } else {
-      return this.httpClient.post<Response<void>>(`${environment.api_url}/users`, requestBody);
-    }
-
-
-    return null;
   }
 
-  private getUsers(): Observable<User[]> {
+  public getUsers(): Observable<User[]> {
     let requestBody: {};
     return this.httpClient.get<User[]>(`${environment.api_url}/users`, requestBody);
   }
