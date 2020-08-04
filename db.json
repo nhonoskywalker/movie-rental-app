@@ -423,6 +423,76 @@
       "registrationId": "123456",
       "rented": false,
       "id": 9
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4561",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 10
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4562",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 11
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4563",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 12
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4564",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 13
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4565",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 14
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4566",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 15
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4567",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 16
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4568",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 17
+    },
+    {
+      "title": "Okja",
+      "copyCode": "4569",
+      "registrationId": "47895123",
+      "rented": false,
+      "id": 18
+    },
+    {
+      "title": "Okja",
+      "copyCode": "7414",
+      "registrationId": "78965423",
+      "rented": false,
+      "id": 19
     }
   ],
   "users": [
@@ -586,6 +656,13 @@
       "email": "testCustomer1000",
       "role": "customer",
       "id": 29
+    },
+    {
+      "username": "admin1",
+      "password": "12345678",
+      "email": "admin1@mail.com",
+      "role": "admin",
+      "id": 30
     }
   ],
   "posts": [

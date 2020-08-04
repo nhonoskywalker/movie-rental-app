@@ -62,6 +62,7 @@ export class CustomerMoviesComponent implements OnInit {
 
     await this.movieRentService.returnMovie(_movieRented).toPromise()
     let _movies = await this.movieService.getMovies().toPromise();
+    
     let _movie = _movies.find(movie => movie.registrationId === _movieRented.registrationId
       && movie.copyCode === _movieRented.copyCode);
 
